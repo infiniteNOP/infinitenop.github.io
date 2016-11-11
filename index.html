@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>infiniteNOP's Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="A list of all of infiniteNOP's projects.">
+	<meta name="keywords" content="infiniteNOP, portfolio, projects,infiniteBBS,hardware,nopCPU,bitbucket,assembler,fpga,NTSC,ntsc,FPGA,nopcpu,verilog">
+</head>
+<body>
+	<h1>Welcome to my portfolio page!</h1>
+	<p>This website, written in a somewhat crude way using HTML, serves
+	   as a list of all of my projects. Feel free to look around, and,
+	   maybe, learn something along the way, as I did while creating these
+	   projects.</p>
+	<p>For your convenience, the projects are organized in the following
+	   categories:</p>
+	<ol>
+		<li><a href="#hardware">Hardware</a></li>
+		<li><a href="#software">Software</a></li>
+	</ol>
+	<p id="hardware">
+		<h2>Hardare projects</h2>
+		<p>These projects are either pure hardware designs, or they
+		   are written in an <a href="https://en.wikipedia.org/wiki/Hardware_description_language">Hardware Description Language (HDL)</a>, like Verilog.</p>
+		<ol>
+			<li><a href="https://github.com/infiniteNOP/nopCPU">nopCPU</a>
+			<p>This is a CPU I designed in verilog, in order to
+			   acquaint myself with the workings of such devices.
+			   It has been tested on a Spartan3 FPGA board, and
+			   it seems to work fine. However, it has not been
+			   used in a serious/large project, and, as such
+			   it remains largely untested. Please do take the
+			   no warranty warning seriously.</p>
+			<p><a href="https://hackaday.com/2015/08/01/teach-yourself-verilog-with-this-tiny-cpu-design/">This project was featured on hackaday</a></p></li>
+			<li><a href="https://github.com/infiniteNOP/ntsc_gen">ntsc_gen</a>
+			<p>A simple NTSC generator. Not tested as of the time
+			   of writing.</p></li>
+		</ol>
+		<p>You can see some other hardware designs of mine, including an 6502 computer which does not use any other 65XX family chips besides the processor, by visiting <a href="http://i4004.sdf.org/">my old homepage</a></p>
+	<p id="software">
+		<h2>Software projects</h2>
+		<p>These projects are supposed to be executed on a typical
+		   computer system, like the one you are using to read this
+		   very page.</p>
+		<ol>
+			<li><a href="https://github.com/infiniteNOP/nopCPU_assembler">nopCPU_assembler</a>
+			<p>An assembler for nopCPU (see Hardware section). I do not think it is in working condition, so feel free to fix it, or write a better assembler, if you feel like doing it. In the meantime, you can wait until I decide I want to write an operating system for my CPU design, and be forced to fix the assembler as a result. Written in TCL.</p></li>
+			<li><a href="https://bitbucket.org/linuxlalala/cpuemu/src">CPUemu</a>
+			<p>A toy CPU emulator I wrote. Its conception was a precursor to me designing my Verilog CPU (see hardware section). Written in C.</p></li>
+			<li><a href="https://bitbucket.org/linuxlalala/infinitebbs">infiniteBBS</a>
+			<p>A BBS thing I once wrote. It was never used for anything, uses PostgresSQL, is written in C, and has been abandoned for a long time. It does work, though.</p>
+			<h3>Acknowledgments/Opensource software notices for infiniteBBS</h3>
+			<p>As illustrated in the README file, this software uses PostgresSQL. As such, the following acknowledgements have to be made:</p>
+			<pre>
+PostgreSQL Database Management System
+(formerly known as Postgres, then as Postgres95)
+
+Portions Copyright (c) 1996-2016, The PostgreSQL Global Development Group
+
+Portions Copyright (c) 1994, The Regents of the University of California
+
+Permission to use, copy, modify, and distribute this software and its documentation
+ for any purpose, without fee, and without a written agreement is hereby granted,
+ provided that the above copyright notice and this paragraph and the following two
+ paragraphs appear in all copies.
+
+IN NO EVENT SHALL THE UNIVERSITY OF CALIFORNIA BE LIABLE TO ANY PARTY FOR
+ DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,
+ INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS
+ DOCUMENTATION, EVEN IF THE UNIVERSITY OF CALIFORNIA HAS BEEN ADVISED
+ OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+THE UNIVERSITY OF CALIFORNIA SPECIFICALLY DISCLAIMS ANY WARRANTIES,
+ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE
+ PROVIDED HEREUNDER IS ON AN "AS IS" BASIS, AND THE UNIVERSITY OF
+ CALIFORNIA HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT,
+ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+</pre>
+		</ol>
+	<p><em>This page was designsed to be viewed on any device and connection, regardless of age, capabilities, and/or speed, as long as it is standards-compliant.</em></p>
+	<p><em>If you are a web developer and are reading this, please consider relying less on javascript on your next project. CPU time is a valuable resource, which should not be wasted for the creation of pleasing visual effects.</em></p>
+	<p><em>Thank you.</em></p>
+    <p>This site's <a target="new" href=
+    "http://validator.w3.org/check?uri=referer"><strong>HTML</strong></a>
+    is valid, and it does not contain any CSS.</p>
+</body>
+</html>
